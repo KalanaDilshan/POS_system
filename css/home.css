@@ -1,0 +1,81 @@
+body{
+   background-image:url("../assets/Spare-Parts.png");
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+/*navbar*/
+nav {
+    position: relative;
+    border-bottom: 3px solid white;
+    background-color: #088395;
+}
+.nav-link {
+    font-style: italic;
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#label-btn-search {
+    margin-right: 3px;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+#dropdown {
+    margin-right: 3px;
+}
+#dropdown2 {
+    margin-right: 3px;
+}
+#dropdown>button {
+    background-color: #EF9595;
+    border: 1px solid black;
+    color: black;
+}
+
+#search-input {
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+    margin-right: 4px;
+}
+#search-input::placeholder {
+    color: black;
+}
+#search-input:focus {
+    border-color: black;
+}
+#home-img {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/Spare-Parts.png");
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    filter: brightness(50%);
+    position: fixed;
+}
+#shop-name {
+    width: fit-content;
+    height: fit-content;
+    margin: -1px 10px 0 -10px;
+}
+#sname {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    /*position: relative;*/
+    /*left: -39vw;*/
+}
+/*#nav-ul{*/
+/*    position: relative;*/
+/*    left: 40vw;*/
+/*}*/
